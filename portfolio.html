@@ -39,11 +39,21 @@
           </ul>
         </nav>
         <ul class="nav-connection list">
-          <li class="menu-contact">
-            <a href="mailto:info@devstudio.com" class="decoration">info@devstudio.com</a>
+          <li class="menu-contact menu-mail">
+            <a href="mailto:info@devstudio.com" class="decoration menu-contact-mail">
+              <svg class="icon-menucontact" width="16" height="12">
+                <use href="./image/sprite.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
-          <li class="menu-contact">
-            <a href="tel:+380991111111" class="decoration">+38 096 111 11 11</a>
+          <li class="menu-contact menu-tel">
+            <a href="tel:+380991111111" class="decoration">
+              <svg class="icon-menucontact" width="10" height="16">
+                <use href="./image/sprite.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -64,7 +74,7 @@
           <!-- Примеры работ  -->
           <ul class="list example">
             <li class="example-list">
-              <a href="" class="decoration">
+              <a href="" class="decoration example-shadow">
                 <img src="./image/wbimg.jpg" alt="Пример веб-сайт" width="370" height="294" />
                 <div class="example-portfolio">
                   <h2>Технокряк</h2>
@@ -73,7 +83,7 @@
               </a>
             </li>
             <li class="example-list">
-              <a href="" class="decoration">
+              <a href="" class="decoration example-shadow">
                 <img
                   src="./image/designimg.jpg"
                   alt="Пример постер New Orlean vs Golden Star"
@@ -87,7 +97,7 @@
               </a>
             </li>
             <li class="example-list">
-              <a href="" class="decoration">
+              <a href="" class="decoration example-shadow">
                 <img
                   src="./image/seafoodimg.jpg"
                   alt="Пример ресторан Seafood"
@@ -101,7 +111,7 @@
               </a>
             </li>
             <li class="example-list">
-              <a href="" class="decoration">
+              <a href="" class="decoration example-shadow">
                 <img
                   src="./image/primeimg.jpg"
                   alt="Пример проект Prime"
@@ -115,7 +125,7 @@
               </a>
             </li>
             <li class="example-list">
-              <a href="" class="decoration">
+              <a href="" class="decoration example-shadow">
                 <img src="./image/boxesimg.jpg" alt="Пример Boxes" width="370" height="294" />
                 <div class="example-portfolio">
                   <h2>Проект Boxes</h2>
@@ -124,7 +134,7 @@
               </a>
             </li>
             <li class="example-list">
-              <a href="" class="decoration">
+              <a href="" class="decoration example-shadow">
                 <img
                   src="./image/bordersimg.jpg"
                   alt="Пример Inspiration has no Borders"
@@ -138,7 +148,7 @@
               </a>
             </li>
             <li class="example-list">
-              <a href="" class="decoration">
+              <a href="" class="decoration example-shadow">
                 <img
                   src="./image/limitedimg.jpg"
                   alt="Пример издание Limited Edition"
@@ -152,7 +162,7 @@
               </a>
             </li>
             <li class="example-list">
-              <a href="" class="decoration">
+              <a href="" class="decoration example-shadow">
                 <img src="./image/labimg.jpg" alt="Пример проект LAB" width="370" height="294" />
                 <div class="example-portfolio">
                   <h2>Проект LAB</h2>
@@ -161,7 +171,7 @@
               </a>
             </li>
             <li class="example-list">
-              <a href="" class="decoration">
+              <a href="" class="decoration example-shadow">
                 <img
                   src="./image/businessimg.jpg"
                   alt="Пример Growing Business"
@@ -179,7 +189,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-columns">
         <div class="footer-padding">
           <a href="./index.html" class="logo decoration footer-padding-logo">
             <span class="logo-web">Web</span><span class="logo-studio">Studio</span></a
@@ -195,6 +205,39 @@
               </li>
             </ul>
           </address>
+        </div>
+        <div class="footer-padding footer-link">
+          <h2 class="footer-heading">Присоединяйтесь</h2>
+          <ul class="ul-footer list">
+            <li>
+              <a href="" class="ul-footer-link">
+                <svg class="ul-footer-svg">
+                  <use href="./image/sprite.svg#icon-instagram "></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="ul-footer-link">
+                <svg class="ul-footer-svg">
+                  <use href="./image/sprite.svg#icon-twitter "></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="ul-footer-link">
+                <svg class="ul-footer-svg">
+                  <use href="./image/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="ul-footer-link">
+                <svg class="ul-footer-svg">
+                  <use href="./image/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
