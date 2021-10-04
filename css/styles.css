@@ -431,7 +431,8 @@ body {
   align-items: center;
 }
 
-.con-client-svg:hover {
+.con-client-svg:hover,
+.con-client-svg:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
@@ -461,7 +462,8 @@ body {
   height: 20px;
 }
 
-.ul-comand-link:hover {
+.ul-comand-link:hover,
+.ul-comand-link:focus {
   background-color: var(--accent-color);
   fill: white;
 }
@@ -499,7 +501,8 @@ body {
   fill: white;
 }
 
-.ul-footer-link:hover {
+.ul-footer-link:hover,
+.ul-footer-link:focus {
   background-color: var(--accent-color);
   fill: white;
 }
@@ -519,7 +522,8 @@ body {
   margin-bottom: 30px;
 }
 
-.example-shadow:hover {
+.example-shadow:hover,
+.example-shadow:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
